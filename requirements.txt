@@ -1,0 +1,5 @@
+pandas>=2.2.3
+argilla==2.8.0
+toolz==1.0.0
+spacy>=3.8.4
+tqdm==4.67.1
