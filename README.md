@@ -48,10 +48,18 @@ export ARGILLA_KEY="**** **** **** ****”
 ## Run labelling 🏷️
 
 ```
-python -i escoe_workshop_labelling/pipeline/run_argilla/run_labelling.py
+python escoe_workshop_labelling/pipeline/run_argilla/run_labelling.py
 
 ```
 to start up the labelling task.
+
+You can save the labels as you go in this command by entering 's' everytime you want to save.
+
+Alternatively (or if you accidentally close this terminal), after labelling you can save the data by running
+```
+python escoe_workshop_labelling/pipeline/run_argilla/save_labelling.py
+```
+
 
 ## Process the labelled data into a format to train a SpaCy NER model 🔍
 
